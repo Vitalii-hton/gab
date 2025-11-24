@@ -1,247 +1,1013 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" type="image/png" href="./favicon-96x96.png" sizes="96x96"/>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg"/>
+    <link rel="shortcut icon" href="./favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png"/>
+    <meta name="apple-mobile-web-app-title" content="Abyss"/>
+    <link rel="manifest" href="./site.webmanifest"/>
 
-    <link rel="stylesheet" type="text/css" href="https://build.cargo.site/u/9ddc44/css/cargo-static.css">
-    <link rel="shortcut icon" href="https://static.cargo.site/favicon/c3-favicon.ico">
-    <title>Cargo</title>
-    <script>
-    window.__PRELOADED_STATE__ = {
-        "auth": {
-            "authenticating": false,
-            "authenticated": false
-        },
-        "account": {
-            "duplicating": null
-        },
-        "folders": [],
-        "templates": [],
-        "sites": [],
-        "collaborators": {},
-        "homepageState": {
-            "currentSearchTerm": null,
-            "hasFolders": false,
-            "hasTemplates": false,
-            "loadingTemplates": false,
-            "renderedFolder": null,
-            "hasAccount": false,
-            "isMobile": false,
-            "pointerType": "mouse",
-            "darkMode": false,
-            "hasUserMeta": false,
-            "trashFetched": false,
-            "siteQueuedForDuplication": null,
-            "queryStringDuplicateId": null,
-            "suppressLoginForm": false,
-            "requireLogin": false,
-            "gridSystemEnabled": false,
-            "focusedSite": null,
-            "templatesAnimate": true,
-            "fontsLoaded": [],
-            "session": {},
-            "ratesPageInterval": "yearly"
-        },
-        "uiWindows": {
-            "byId": {},
-            "byGroup": {},
-            "focusOrder": []
-        },
-        "deletedSites": [],
-        "subscriptions": [],
-        "sitePreview": {
-            "previewingSite": false,
-            "previewSiteModel": null,
-            "containingFolderID": null
-        },
-        "community": {
-            "paginationComplete": false,
-            "offset": 0,
-            "periods": []
-        },
-        "publicFolders": [],
-        "paginatedJobs": {
-            "initialFetch": false,
-            "paginationComplete": false,
-            "offset": 0,
-            "jobs": []
-        },
-        "userJobs": [],
-        "jobsFilter": {
-            "fullTime": false,
-            "partTime": false,
-            "temporary": false,
-            "remote": false,
-            "onSite": false,
-            "profession": "default",
-            "location": null
-        },
-        "filteredJobs": [],
-        "writing": {
-            "sectionsLoaded": [],
-            "articles": []
-        },
-        "usefulMusic": {
-            "sectionsLoaded": [],
-            "articles": []
-        }
-    }
-    </script>
-    <script>
-    window.__HYDRATE_DEPENDENCIES__ = []
-    </script>
-    <script>
-    (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new Date().getTime(),
-            event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s),
-            dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-KM9HDTX');
-    </script>
-    <link rel="stylesheet" href="https://build.cargo.site/u/9ddc44/index.css">
-
-    <meta name="description" content="Site builder for designers and artists">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Cargo">
-    <meta name="twitter:description" content="Site builder for designers and artists">
-    <meta name="twitter:image" content="https://static.cargo.site/assets/C3/screenshots/cargosite.jpg">
-    <meta property="og:title" content="Cargo">
-    <meta property="og:description" content="Site builder for designers and artists">
-    <meta property="og:url" content="https://cargo.site">
-    <meta property="og:image" content="https://static.cargo.site/assets/C3/screenshots/cargosite.jpg">
-    <meta property="og:type" content="website">
+    <link href="./_app/immutable/assets/0.DpGb3_lh.css" rel="stylesheet">
+    <link href="./_app/immutable/assets/image.Clm3pEOh.css" rel="stylesheet">
+    <link href="./_app/immutable/assets/2.C-GW8brK.css" rel="stylesheet">
+    <link rel="modulepreload" href="./_app/immutable/entry/start.D6KZ8hZc.js">
+    <link rel="modulepreload" href="./_app/immutable/chunks/B4URbpPk.js">
+    <link rel="modulepreload" href="./_app/immutable/chunks/CgxEUfJg.js">
+    <link rel="modulepreload" href="./_app/immutable/entry/app.oUf0IIG7.js">
+    <link rel="modulepreload" href="./_app/immutable/chunks/CX_t8N4b.js">
+    <link rel="modulepreload" href="./_app/immutable/chunks/DsnmJJEf.js">
+    <link rel="modulepreload" href="./_app/immutable/chunks/p_RZHlm9.js">
+    <link rel="modulepreload" href="./_app/immutable/chunks/BI-9oFAh.js">
+    <link rel="modulepreload" href="./_app/immutable/chunks/BtcsJnUH.js">
+    <link rel="modulepreload" href="./_app/immutable/nodes/0.C3v9qYRt.js">
+    <link rel="modulepreload" href="./_app/immutable/chunks/2Ph8LKBa.js">
+    <link rel="modulepreload" href="./_app/immutable/chunks/NcqHHcWv.js">
+    <link rel="modulepreload" href="./_app/immutable/chunks/CePbTZzw.js">
+    <link rel="modulepreload" href="./_app/immutable/chunks/796ljd3p.js">
+    <link rel="modulepreload" href="./_app/immutable/chunks/BzZCtodN.js">
+    <link rel="modulepreload" href="./_app/immutable/nodes/2.Cj5BTM4m.js">
+    <link rel="modulepreload" href="./_app/immutable/chunks/BQpowtWZ.js">
+    <link rel="modulepreload" href="./_app/immutable/chunks/DLz9s5tj.js">
+    <link rel="modulepreload" href="./_app/immutable/chunks/CugQ0HwX.js">
+    <link rel="modulepreload" href="./_app/immutable/chunks/CBWQ5mYb.js">
+    <link rel="modulepreload" href="./_app/immutable/chunks/DXCHAfq8.js">
+    <!--[-->
+    <!--[-->
+    <meta name="description" content="Abyss Digital is a creative VFX studio based in Europe, creating stunning post-production visual solutions."/>
+    <!--]-->
+    <meta property="og_site_name" content="Abyss Digital"/>
+    <meta property="og:url" content="https://abyssdigital.studio/"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Abyss Digital"/>
+    <!--[-->
+    <meta property="og:description" content="Abyss Digital is a creative VFX studio based in Europe, creating stunning post-production visual solutions."/>
+    <!--]-->
+    <!--[!-->
+    <!--]-->
+    <!--[!-->
+    <!--]-->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta property="twitter:domain" content="Abyss Digital"/>
+    <meta property="twitter:url" content="https://abyssdigital.studio/"/>
+    <meta name="twitter:title" content="Abyss Digital"/>
+    <!--[-->
+    <meta name="twitter:description" content="Abyss Digital is a creative VFX studio based in Europe, creating stunning post-production visual solutions."/>
+    <!--]-->
+    <!--[!-->
+    <!--]-->
+    <!---->
+    <script type="application/ld+json">{
+       "@context": "https://schema.org",
+       "@type": "Website",
+       "name": "Abyss Digital – Abyss Digital",
+       "url": "https://abyssdigital.studio/",
+      }</script>
+    <!---->
+    <!--]-->
+    <title>Abyss Digital</title>
 </head>
+<body data-sveltekit-preload-data="hover">
+    <div style="display: contents">
+        <!--[-->
+        <!--[-->
+        <!---->
+        <header class="fixed top-0 left-0 right-0 z-50 flex h-24 items-start justify-between p-4">
+            <div class="flex h-full items-center">
+                <a href="/">
+                    <img src="/images/logo.png" alt="Abyss Digital" class="w-20"/>
+                </a>
+            </div>
+            <div class="flex items-start gap-2 max-md:hidden">
+                <!--[-->
+                <a data-slot="button" class="rounded-full backdrop-blur-sm duration-200 bg-white/20 hover:bg-white/25 text-white py-1.5 px-5 text-xs" href="/">
+                    <!---->
+                    Home<!---->
+                </a>
+                <!--]-->
+                <!---->
+                <!--[-->
+                <a data-slot="button" class="rounded-full backdrop-blur-sm duration-200 bg-white/20 hover:bg-white/25 text-white py-1.5 px-5 text-xs" href="/projects	">
+                    <!---->
+                    Projects<!---->
+                </a>
+                <!--]-->
+                <!---->
+                <!--[-->
+                <a data-slot="button" class="rounded-full backdrop-blur-sm duration-200 bg-white hover:bg-white/90 text-black py-1.5 px-5 text-xs" href="/contact">
+                    <!---->
+                    Contact<!---->
+                </a>
+                <!--]-->
+                <!---->
+            </div>
+            <!--[!-->
+            <button data-slot="button" class="rounded-full backdrop-blur-sm duration-200 bg-white/20 hover:bg-white/25 text-white py-1.5 px-5 text-xs md:hidden" type="button">
+                <!---->
+                Menu<!---->
+            </button>
+            <!--]-->
+            <!---->
+            <!--[!-->
+            <!--]-->
+            <!---->
+        </header>
+        <!---->
+        <!---->
+        <!---->
+        <section class="relative h-[200lvh] w-screen">
+            <!--[-->
+            <div class="h-lvh w-screen bg-black">
+                <!--[!-->
+                <video data-src="https://stream.mux.com/UZhiY5iV02p01NXw2ShmWfddMmW4r01t5ch01NNsUyAnjX4/high.mp4" autoplay loop muted playsinline class="mx-auto h-full"></video>
+                <!--]-->
+                <!---->
+            </div>
+            <!--]-->
+            <!--[-->
+            <div class="pointer-events-none fixed inset-0 opacity-0">
+                <div class="relative h-full w-full">
+                    <mux-player class="h-full w-full object-cover svelte-1gac1ee" defaultmuted="true" muted loop playback-id="02PtiW0000fXafXIYY4bXDFvWgbjGELY004d7wSIC5F1snQ" disable-tracking="true" disable-cookies="true" loading="lazy"></mux-player>
+                </div>
+                <!---->
+            </div>
+            <!--]-->
+        </section>
+        <section class="absolute z-10 w-screen bg-black opacity-0">
+            <!--[-->
+            <div class="h-lvh flex items-center px-12">
+                <p class="max-w-3xl text-xl uppercase leading-tight tracking-wide max-md:leading-7 md:text-2xl lg:text-4xl">
+                    <!--[-->
+                    <span class="opacity-15">G</span>
+                    <span class="opacity-15">l</span>
+                    <span class="opacity-15">o</span>
+                    <span class="opacity-15">b</span>
+                    <span class="opacity-15">a</span>
+                    <span class="opacity-15">l</span>
+                    <span class="opacity-15"></span>
+                    <span class="opacity-15">V</span>
+                    <span class="opacity-15">F</span>
+                    <span class="opacity-15">X</span>
+                    <span class="opacity-15"></span>
+                    <span class="opacity-15">&amp;</span>
+                    <span class="opacity-15"></span>
+                    <span class="opacity-15">C</span>
+                    <span class="opacity-15">r</span>
+                    <span class="opacity-15">e</span>
+                    <span class="opacity-15">a</span>
+                    <span class="opacity-15">t</span>
+                    <span class="opacity-15">i</span>
+                    <span class="opacity-15">v</span>
+                    <span class="opacity-15">e</span>
+                    <span class="opacity-15"></span>
+                    <span class="opacity-15">S</span>
+                    <span class="opacity-15">t</span>
+                    <span class="opacity-15">u</span>
+                    <span class="opacity-15">d</span>
+                    <span class="opacity-15">i</span>
+                    <span class="opacity-15">o</span>
+                    <span class="opacity-15"></span>
+                    <span class="opacity-15">d</span>
+                    <span class="opacity-15">e</span>
+                    <span class="opacity-15">f</span>
+                    <span class="opacity-15">i</span>
+                    <span class="opacity-15">n</span>
+                    <span class="opacity-15">i</span>
+                    <span class="opacity-15">n</span>
+                    <span class="opacity-15">g</span>
+                    <span class="opacity-15"></span>
+                    <span class="opacity-15">i</span>
+                    <span class="opacity-15">m</span>
+                    <span class="opacity-15">m</span>
+                    <span class="opacity-15">e</span>
+                    <span class="opacity-15">r</span>
+                    <span class="opacity-15">s</span>
+                    <span class="opacity-15">i</span>
+                    <span class="opacity-15">v</span>
+                    <span class="opacity-15">e</span>
+                    <span class="opacity-15"></span>
+                    <span class="opacity-15">b</span>
+                    <span class="opacity-15">r</span>
+                    <span class="opacity-15">a</span>
+                    <span class="opacity-15">n</span>
+                    <span class="opacity-15">d</span>
+                    <span class="opacity-15"></span>
+                    <span class="opacity-15">e</span>
+                    <span class="opacity-15">x</span>
+                    <span class="opacity-15">p</span>
+                    <span class="opacity-15">e</span>
+                    <span class="opacity-15">r</span>
+                    <span class="opacity-15">i</span>
+                    <span class="opacity-15">e</span>
+                    <span class="opacity-15">n</span>
+                    <span class="opacity-15">c</span>
+                    <span class="opacity-15">e</span>
+                    <span class="opacity-15">s</span>
+                    <span class="opacity-15"></span>
+                    <span class="opacity-15">t</span>
+                    <span class="opacity-15">h</span>
+                    <span class="opacity-15">r</span>
+                    <span class="opacity-15">o</span>
+                    <span class="opacity-15">u</span>
+                    <span class="opacity-15">g</span>
+                    <span class="opacity-15">h</span>
+                    <span class="opacity-15"></span>
+                    <span class="opacity-15">a</span>
+                    <span class="opacity-15">r</span>
+                    <span class="opacity-15">t</span>
+                    <span class="opacity-15">,</span>
+                    <span class="opacity-15"></span>
+                    <span class="opacity-15">d</span>
+                    <span class="opacity-15">e</span>
+                    <span class="opacity-15">s</span>
+                    <span class="opacity-15">i</span>
+                    <span class="opacity-15">g</span>
+                    <span class="opacity-15">n</span>
+                    <span class="opacity-15">,</span>
+                    <span class="opacity-15"></span>
+                    <span class="opacity-15">a</span>
+                    <span class="opacity-15">n</span>
+                    <span class="opacity-15">d</span>
+                    <span class="opacity-15"></span>
+                    <span class="opacity-15">n</span>
+                    <span class="opacity-15">e</span>
+                    <span class="opacity-15">x</span>
+                    <span class="opacity-15">t</span>
+                    <span class="opacity-15">-</span>
+                    <span class="opacity-15">g</span>
+                    <span class="opacity-15">e</span>
+                    <span class="opacity-15">n</span>
+                    <span class="opacity-15"></span>
+                    <span class="opacity-15">t</span>
+                    <span class="opacity-15">e</span>
+                    <span class="opacity-15">c</span>
+                    <span class="opacity-15">h</span>
+                    <span class="opacity-15">n</span>
+                    <span class="opacity-15">o</span>
+                    <span class="opacity-15">l</span>
+                    <span class="opacity-15">o</span>
+                    <span class="opacity-15">g</span>
+                    <span class="opacity-15">i</span>
+                    <span class="opacity-15">e</span>
+                    <span class="opacity-15">s</span>
+                    <span class="opacity-15">.</span>
+                    <!--]-->
+                </p>
+            </div>
+            <!--]-->
+            <!--[-->
+            <div class="h-lvh relative">
+                <div class="svelte-1osucwe">
+                    <canvas class="svelte-1osucwe">
+                    <!--[!-->
+                    <!--]-->
+                    </canvas>
+                </div>
+                <!---->
+                <!--[-->
+                <div class="absolute inset-0 flex flex-col items-center justify-center gap-3">
+                    <!--[-->
+                    <a data-slot="button" class="rounded-full backdrop-blur-sm duration-200 bg-white hover:bg-white/90 text-black py-2 px-6 text-xs" href="/projects">
+                        <!---->
+                        View All Projects<!---->
+                    </a>
+                    <!--]-->
+                    <!---->
+                    <!--[!-->
+                    <button data-slot="button" class="rounded-full backdrop-blur-sm duration-200 bg-white/20 hover:bg-white/25 text-white py-2 px-6 text-xs" type="button">
+                        <!---->
+                        Explore Featured<!---->
+                    </button>
+                    <!--]-->
+                    <!---->
+                </div>
+                <!--]-->
+            </div>
+            <!--]-->
+        </section>
+        <!---->
+        <!---->
+        <footer class="fixed bottom-0 left-0 right-0 z-50 flex items-end justify-between p-4">
+            <p class="text-xs">© 2025 Abyss Digital</p>
+            <div class="flex items-center gap-4">
+                <a href="https://jannis.gg" target="_blank" aria-label="jannis.gg">
+                    <div class="size-3.5 rounded-full bg-white"></div>
+                </a>
+                <a href="https://vimeo.com/abyssdigital" target="_blank">
+                    <img src="/images/vimeo.svg" alt="Vimeo" class="size-4 invert"/>
+                </a>
+                <a href="https://instagram.com/abyss.digital" target="_blank">
+                    <img src="/images/instagram.svg" alt="Instagram" class="size-4 invert"/>
+                </a>
+            </div>
+        </footer>
+        <!---->
+        <!---->
+        <!--]-->
+        <!--[!-->
+        <!--]-->
+        <!--]-->
 
-<body style="visibility: hidden;">
-    <div id="app">
-        <div id="index-anchor" style="height:0;width:0"></div>
-        <div id="main-menu" class="top-menu-bar">
-            <div id="home-menu">
-                <div class="left-area">
-                    <span>
-                        <span class="button-link intro">
-                            <span>Cargo</span>
-                        </span>
-                    </span>
-                </div>
-                <div class="options-area">
-                    <span>
-                        <a class="button-link templates" href="/templates">
-                            <span>Templates</span>
-                        </a>
-                        <a class="button-link community" href="/community">
-                            <span>Community</span>
-                        </a>
-                        <a class="button-link" href="/information">
-                            <span>Information</span>
-                        </a>
-                    </span>
-                    <div id="login-menu" class="right-area">
-                        <button class="start" type="button">
-                            <span>Start</span>
-                        </button>
-                        <button class="login" type="button">
-                            <span>Login ↗</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="manager" class="">
-            <div id="home-page">
-                <h1>
-                    <div class="text-reveal cargo" style="display:inline-block;position:relative;overflow:visible">
-                        <span class="c" style="visibility:hidden">C</span>
-                        <span class="" style="visibility:hidden">a</span>
-                        <span class="r" style="visibility:hidden">r</span>
-                        <span class="g" style="visibility:hidden">g</span>
-                        <span class="" style="visibility:hidden">o</span>
-                    </div>
-                    <br/>
-                    <div class="text-reveal site-builder" style="display:inline-block;position:relative;overflow:visible">
-                        <span class="" style="visibility:hidden">S</span>
-                        <span class="" style="visibility:hidden">i</span>
-                        <span class="" style="visibility:hidden">t</span>
-                        <span class="" style="visibility:hidden">e</span>
-                        <span class="" style="visibility:hidden"></span>
-                        <span class="" style="visibility:hidden">B</span>
-                        <span class="" style="visibility:hidden">u</span>
-                        <span class="" style="visibility:hidden">i</span>
-                        <span class="" style="visibility:hidden">l</span>
-                        <span class="" style="visibility:hidden">d</span>
-                        <span class="" style="visibility:hidden">e</span>
-                        <span class="" style="visibility:hidden">r</span>
-                        <span class="end-icon" style="visibility:hidden">®</span>
-                    </div>
-                </h1>
-                <h2>
-                    <span>
-                        <a class="templates" href="/templates">
-                            Explore Sites 
-                            <span class="arrow">→</span>
-                        </a>
-                        <br/>
-                        <span class="start text-button">
-                            S
-                            <span class="t">t</span>
-                            <span class="a">a</span>
-                            <span class="r">r</span>
-                            t 
-                            <span class="arrow">→</span>
-                        </span>
-                    </span>
-                </h2>
-                <div class="fixed-clock">
-                    <span></span>
-                </div>
-                <div class="fixed-information image" style="opacity:1;pointer-events:auto">
-                    <span>
-                        <a class="fonts-link" href="/fonts">
-                            <img class="dinamo-image" src="https://build.cargo.site/u/9ddc44/images/dinamo-green.jpg" alt="Dinamo Logo"/>
-                        </a>
-                    </span>
-                </div>
-                <div class="fixed-information text" style="opacity:1;pointer-events:auto">
-                    <span>
-                        Cargo is a site builder for designers and artists. We are interested in two main things: helping creative people secure jobs/clients through showing work and displaying work, generally. As well, we host a network of peers to show great sites and work. This is Cargo’s passion and purpose. 
-                        <a class="button-link more-information" href="/information">[more...]</a>
-                    </span>
-                </div>
-            </div>
-        </div>
-        <style></style>
-        <div id="uiWindow-layer"></div>
+        <script>
+        {
+            __sveltekit_12wonzs = {
+                base: new URL(".", location).pathname.slice(0, -1)
+            };
+
+            const element = document.currentScript.parentElement;
+
+            Promise.all([
+            import("./_app/immutable/entry/start.D6KZ8hZc.js"),
+            import("./_app/immutable/entry/app.oUf0IIG7.js")
+            ]).then(([kit, app]) => {
+                kit.start(app, element, {
+                    node_ids: [0, 2],
+                    data: [{
+                        type: "data",
+                        data: null,
+                        uses: {}
+                    }, {
+                        type: "data",
+                        data: {
+                            homepage: {
+                                _createdAt: "2025-08-22T13:34:15Z",
+                                _id: "homepage",
+                                _rev: "Jv1D0Jt1RZ7sUPsz85lbVM",
+                                _system: {
+                                    base: {
+                                        id: "homepage",
+                                        rev: "sMwpRk2AARKQGOmTxcw7UC"
+                                    }
+                                },
+                                _type: "homepage",
+                                _updatedAt: "2025-11-17T17:10:41Z",
+                                cubeProjects: [{
+                                    _createdAt: "2025-08-23T15:17:29Z",
+                                    _id: "fbca932b-4fd8-4a15-a506-b82196c1ba22",
+                                    _rev: "Y3FwiD2M4Leiq8XP6jvfTV",
+                                    _type: "project",
+                                    _updatedAt: "2025-08-26T10:02:56Z",
+                                    director: "Felix Brady",
+                                    orderRank: "0|0i0004:",
+                                    production: "Stink Films",
+                                    shots: [{
+                                        _key: "e47b5f2afac7",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "35a5c683-d450-4e29-83ec-419f8f0d5fae",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "c33ef8eca272",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "61da9467-1958-4a48-bc05-950dc402fc7e",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "40b13ca58f2f",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "6f39e581-4005-41e5-9ce6-b487b877165d",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "13ac694ca728",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "c0536228-0de3-4e67-bab1-1eb563f0663a",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "a57750c6002a",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "97a32da2-af68-47fc-ba10-a85fb6fd69c9",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "01a6f45ea635",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "a3193fe3-e93f-430e-b6c0-e51e5cabb4ce",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }],
+                                    slug: {
+                                        _type: "slug",
+                                        current: "nike-x-zalando"
+                                    },
+                                    thumbnail: {
+                                        _type: "img",
+                                        asset: {
+                                            _ref: "image-5c0bf3e96192a0fb037aa6d7862f451aef7c253d-1920x1080-heif",
+                                            _type: "reference"
+                                        }
+                                    },
+                                    thumbnailVideo: {
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "051063cf-82a5-4b24-8539-4b400e2dce35",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    },
+                                    title: "Nike x Zalando",
+                                    vimeoVideoId: "1112647113",
+                                    year: 2025
+                                }, {
+                                    _createdAt: "2025-08-22T14:55:17Z",
+                                    _id: "fd61bac5-57b9-447e-972d-28e410c0d8e2",
+                                    _rev: "NNXZkZoaLMD8CMCJrCSuSC",
+                                    _system: {
+                                        base: {
+                                            id: "fd61bac5-57b9-447e-972d-28e410c0d8e2",
+                                            rev: "W7BdejPimYZdltEqfyqPmQ"
+                                        }
+                                    },
+                                    _type: "project",
+                                    _updatedAt: "2025-09-18T14:40:26Z",
+                                    additionalVimeoVideoIds: ["1109005721", "1109005508", "1109005365"],
+                                    director: "Shapxo",
+                                    orderRank: "0|100008:",
+                                    production: "Shoot Europe",
+                                    shots: [{
+                                        _key: "d60e40e407c4",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "08f359b7-6944-4997-882f-97001eb2aac1",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "26dc432a50ad",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "58319cf2-0a90-463a-a198-5262205785c0",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "4c2e039155d7",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "ae99abc8-d1d7-4c4c-8b50-8c2ec2a9c1a0",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "7088d8d2bb5f",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "4f8bb040-ab08-4056-ae31-83f2a668d15d",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "2acc52837c00",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "4d628f02-5a07-4c5a-b29f-cd9d4e2d976e",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "49460e89eee3",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "72713d62-220e-4fb0-a855-5dd2ac211c03",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "a0365db7f2b9",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "66bc7f87-1e56-4860-9528-90a8cb5335ae",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }],
+                                    slug: {
+                                        _type: "slug",
+                                        current: "nike-phantom"
+                                    },
+                                    thumbnail: {
+                                        _type: "img",
+                                        asset: {
+                                            _ref: "image-14cc330875c532bafee01f4f936dfa74f70f3006-1920x1080-png",
+                                            _type: "reference"
+                                        }
+                                    },
+                                    thumbnailVideo: {
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "a4712649-c2c9-4753-9e97-188c5b6b0f5b",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    },
+                                    title: "Nike Phantom",
+                                    vimeoVideoId: "1109005038",
+                                    year: 2025
+                                }, {
+                                    _createdAt: "2025-08-23T12:16:25Z",
+                                    _id: "679a2697-085b-4787-8419-7bc57bc96b47",
+                                    _rev: "W7BdejPimYZdltEqfxm6So",
+                                    _system: {
+                                        base: {
+                                            id: "679a2697-085b-4787-8419-7bc57bc96b47",
+                                            rev: "Y3FwiD2M4Leiq8XP6ce9zo"
+                                        }
+                                    },
+                                    _type: "project",
+                                    _updatedAt: "2025-08-23T13:43:42Z",
+                                    director: "Shapxo",
+                                    orderRank: "0|10000o:",
+                                    production: "Caviar",
+                                    shots: [{
+                                        _key: "4b7d759221f4",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "8100e373-02c1-4273-9246-1f2e2b745b56",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "a1734854fee5",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "e60b7422-4df3-418c-811d-36ffb6ee6c8c",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "78e32a2f1061",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "6521cd38-7cd1-4b70-8be5-29ea6cd1ef29",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "5769a7ce0e45",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "f201d570-8f3c-4b65-9a15-626559aec023",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "582281d13a0d",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "558380cb-510e-4458-8f27-a1b73d3e390f",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "458f2e6f6601",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "2175fc2e-e248-425b-99e8-af7929ae7253",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }],
+                                    slug: {
+                                        _type: "slug",
+                                        current: "parions-sport"
+                                    },
+                                    thumbnail: {
+                                        _type: "img",
+                                        asset: {
+                                            _ref: "image-4183ab5836810574dfc6896e4bd0683da8ab9c75-1920x1080-heif",
+                                            _type: "reference"
+                                        }
+                                    },
+                                    thumbnailVideo: {
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "dca157d5-bf5d-4b92-8e7b-e68208465e9f",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    },
+                                    title: "Parions Sport",
+                                    vimeoVideoId: "1074346001",
+                                    year: 2025
+                                }, {
+                                    _createdAt: "2025-08-23T13:44:18Z",
+                                    _id: "dad92d32-7e55-4dbe-8ec8-0e719cf45886",
+                                    _rev: "sMwpRk2AARKQGOmTxc6JSF",
+                                    _system: {
+                                        base: {
+                                            id: "dad92d32-7e55-4dbe-8ec8-0e719cf45886",
+                                            rev: "sMwpRk2AARKQGOmTxc5Pc3"
+                                        }
+                                    },
+                                    _type: "project",
+                                    _updatedAt: "2025-08-23T15:15:21Z",
+                                    director: "Shapxo",
+                                    orderRank: "0|10000g:",
+                                    production: "Quad",
+                                    shots: [{
+                                        _key: "208cae325348",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "0ffafd23-b9ea-461a-acaf-4ad9d6f29f54",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "f57b14026f7b",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "eee39c03-9703-4d65-93bb-32dcf504de14",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "2dd09734dfd8",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "8ef165b1-5ed8-4eba-b3a4-3806a03aa2f0",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "c3f3604d5e61",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "5154076d-36ae-4185-8fae-09926d47344f",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "00d114372f25",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "af656ba9-3bc4-497a-931f-9376a9ff8e5b",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "1a489da5ad77",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "98c0e516-75fa-484c-8cd0-03f634c29610",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }],
+                                    slug: {
+                                        _type: "slug",
+                                        current: "citroen-c5"
+                                    },
+                                    thumbnail: {
+                                        _type: "img",
+                                        asset: {
+                                            _ref: "image-348531abf5625bc93902ccecd1a6224745e793e4-1920x1080-jpg",
+                                            _type: "reference"
+                                        }
+                                    },
+                                    thumbnailVideo: {
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "0ffafd23-b9ea-461a-acaf-4ad9d6f29f54",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    },
+                                    title: "Citroën C5",
+                                    vimeoVideoId: "1084301975",
+                                    year: 2025
+                                }, {
+                                    _createdAt: "2025-08-23T13:55:52Z",
+                                    _id: "750b1e69-4b44-4f10-a0ce-83cc7556ca43",
+                                    _rev: "sMwpRk2AARKQGOmTxc5VBO",
+                                    _type: "project",
+                                    _updatedAt: "2025-08-23T13:59:25Z",
+                                    director: "Christian Breslauer",
+                                    orderRank: "0|10001k:",
+                                    production: "London Alley",
+                                    shots: [{
+                                        _key: "abd9ab47f5e1",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "7e6a45b5-1097-4b64-9b42-13a3b2f06138",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "9fb560c08f70",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "f22b3948-0ce9-4ca5-8944-bb8417460e64",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "5100c66b5845",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "743f843b-7bff-4910-9ef2-15563149aa66",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "ce497da89b38",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "51cbc213-bd2b-4297-a605-8017afd27438",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "d7f76d516787",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "360751b5-539a-433b-820f-e8f35ba1c55b",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "4f310e4c2143",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "99aa4e49-2a4f-4b25-b782-87fd28bf9e57",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }],
+                                    slug: {
+                                        _type: "slug",
+                                        current: "jisoo-earthquake"
+                                    },
+                                    thumbnail: {
+                                        _type: "img",
+                                        asset: {
+                                            _ref: "image-6e54867bf92b0f59d7661a26c56e86a4db85a9d9-1920x1080-jpg",
+                                            _type: "reference"
+                                        }
+                                    },
+                                    thumbnailVideo: {
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "1905e34a-b223-49a1-9920-a6755096b3a7",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    },
+                                    title: "Jisoo - Earthquake",
+                                    vimeoVideoId: "1060439769",
+                                    year: 2025
+                                }, {
+                                    _createdAt: "2025-08-23T14:32:56Z",
+                                    _id: "54865b60-353c-4cad-a953-31333b50f033",
+                                    _rev: "Y3FwiD2M4Leiq8XP6clLmg",
+                                    _type: "project",
+                                    _updatedAt: "2025-08-23T15:15:27Z",
+                                    director: "Gibson Hazard",
+                                    orderRank: "0|100028:",
+                                    production: "Prodco",
+                                    shots: [{
+                                        _key: "d4b5d857dfe7",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "8f786f37-c421-4752-a7f1-e905fe955c6a",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "7e567050d007",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "789a4301-7f7a-46d4-8b56-1ca7e7fa5f8e",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "e87cb38825fd",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "60f6ce80-4f94-456e-a060-3b7edd9d82cc",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "f5e70ffa8a23",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "c0cd29bc-c769-4388-b24b-500cfb9359ae",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }, {
+                                        _key: "5b2b7eb53a95",
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "e560c1cd-ef71-450b-8dd1-272bd729b55c",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    }],
+                                    slug: {
+                                        _type: "slug",
+                                        current: "nike-x-travis-scott"
+                                    },
+                                    thumbnail: {
+                                        _type: "img",
+                                        asset: {
+                                            _ref: "image-f980c6af126296de224fc96c4822be475782e957-1920x1080-jpg",
+                                            _type: "reference"
+                                        }
+                                    },
+                                    thumbnailVideo: {
+                                        _type: "mux.video",
+                                        asset: {
+                                            _ref: "b217601a-ebdb-4a87-bd67-c290dc462a11",
+                                            _type: "reference",
+                                            _weak: true
+                                        }
+                                    },
+                                    title: "Nike x Travis Scott",
+                                    vimeoVideoId: "1041364335",
+                                    year: 2024
+                                }],
+                                logoVideo: {
+                                    _type: "mux.video",
+                                    asset: {
+                                        _createdAt: "2025-08-22T13:59:45Z",
+                                        _id: "209fd952-2d26-419f-a2b1-bd3e7b9d3962",
+                                        _rev: "sMwpRk2AARKQGOmTxbjF5O",
+                                        _type: "mux.videoAsset",
+                                        _updatedAt: "2025-08-22T14:00:06Z",
+                                        assetId: "8SuCIlpe00RPvcqMGtz6nklhwsqce5Z95sXwX7nuYK02E",
+                                        data: {
+                                            aspect_ratio: "1:1",
+                                            created_at: "1755871191",
+                                            duration: 10,
+                                            encoding_tier: "smart",
+                                            id: "8SuCIlpe00RPvcqMGtz6nklhwsqce5Z95sXwX7nuYK02E",
+                                            ingest_type: "on_demand_direct_upload",
+                                            master_access: "none",
+                                            max_resolution_tier: "1080p",
+                                            max_stored_frame_rate: 25,
+                                            max_stored_resolution: "HD",
+                                            mp4_support: "standard",
+                                            passthrough: "209fd952-2d26-419f-a2b1-bd3e7b9d3962",
+                                            playback_ids: [{
+                                                id: "UZhiY5iV02p01NXw2ShmWfddMmW4r01t5ch01NNsUyAnjX4",
+                                                policy: "public"
+                                            }],
+                                            progress: {
+                                                progress: 100,
+                                                state: "completed"
+                                            },
+                                            resolution_tier: "1080p",
+                                            static_renditions: {
+                                                files: [{
+                                                    bitrate: 377800,
+                                                    ext: "mp4",
+                                                    filesize: "472255",
+                                                    height: 480,
+                                                    name: "medium.mp4",
+                                                    width: 480
+                                                }, {
+                                                    bitrate: 1726696,
+                                                    ext: "mp4",
+                                                    filesize: "2158371",
+                                                    height: 1080,
+                                                    name: "high.mp4",
+                                                    width: 1080
+                                                }, {
+                                                    bitrate: 192088,
+                                                    ext: "mp4",
+                                                    filesize: "240112",
+                                                    height: 270,
+                                                    name: "low.mp4",
+                                                    width: 270
+                                                }],
+                                                status: "ready"
+                                            },
+                                            status: "ready",
+                                            tracks: [{
+                                                duration: 10,
+                                                id: "krj7901fpJ302eFh2tWMx902Mc9ti7QJp01Ss9W01aKhunfM",
+                                                max_frame_rate: 25,
+                                                max_height: 1080,
+                                                max_width: 1080,
+                                                type: "video"
+                                            }],
+                                            upload_id: "tIa11BVmjzKv01qxHjpINMDZlbsPc01L5wX00POGnFdfxI",
+                                            video_quality: "plus"
+                                        },
+                                        playbackId: "UZhiY5iV02p01NXw2ShmWfddMmW4r01t5ch01NNsUyAnjX4",
+                                        status: "ready",
+                                        uploadId: "tIa11BVmjzKv01qxHjpINMDZlbsPc01L5wX00POGnFdfxI"
+                                    }
+                                },
+                                logoVideoFallback: {
+                                    _type: "img",
+                                    asset: {
+                                        _ref: "image-4330a2c9700c525958095ca71a396dd157daf212-965x890-png",
+                                        _type: "reference"
+                                    }
+                                },
+                                text: "Global VFX & Creative Studio defining immersive brand experiences through art, design, and next-gen technologies.",
+                                video: {
+                                    _type: "mux.video",
+                                    asset: {
+                                        _createdAt: "2025-08-22T13:59:55Z",
+                                        _id: "02cb95c2-3f16-4429-9b36-96b4e050998a",
+                                        _rev: "W7BdejPimYZdltEqfvsVGW",
+                                        _type: "mux.videoAsset",
+                                        _updatedAt: "2025-08-22T14:00:19Z",
+                                        assetId: "qkDsutaXShu600348yJ4nMUzk8CodNfVGQBP02JLS6Kb8",
+                                        data: {
+                                            aspect_ratio: "16:9",
+                                            created_at: "1755871203",
+                                            duration: 13.76,
+                                            encoding_tier: "smart",
+                                            id: "qkDsutaXShu600348yJ4nMUzk8CodNfVGQBP02JLS6Kb8",
+                                            ingest_type: "on_demand_direct_upload",
+                                            master_access: "none",
+                                            max_resolution_tier: "1080p",
+                                            max_stored_frame_rate: 25,
+                                            max_stored_resolution: "HD",
+                                            mp4_support: "standard",
+                                            passthrough: "02cb95c2-3f16-4429-9b36-96b4e050998a",
+                                            playback_ids: [{
+                                                id: "02PtiW0000fXafXIYY4bXDFvWgbjGELY004d7wSIC5F1snQ",
+                                                policy: "public"
+                                            }],
+                                            progress: {
+                                                progress: 100,
+                                                state: "completed"
+                                            },
+                                            resolution_tier: "1080p",
+                                            static_renditions: {
+                                                files: [{
+                                                    bitrate: 802608,
+                                                    ext: "mp4",
+                                                    filesize: "1380488",
+                                                    height: 480,
+                                                    name: "medium.mp4",
+                                                    width: 854
+                                                }, {
+                                                    bitrate: 3509208,
+                                                    ext: "mp4",
+                                                    filesize: "6035840",
+                                                    height: 1080,
+                                                    name: "high.mp4",
+                                                    width: 1920
+                                                }, {
+                                                    bitrate: 400736,
+                                                    ext: "mp4",
+                                                    filesize: "689277",
+                                                    height: 270,
+                                                    name: "low.mp4",
+                                                    width: 480
+                                                }],
+                                                status: "ready"
+                                            },
+                                            status: "ready",
+                                            tracks: [{
+                                                duration: 13.76,
+                                                id: "FRy6EarkcQoGQSNLS00PaUffTq41BNPcAMCpBXEIGlck",
+                                                max_frame_rate: 25,
+                                                max_height: 1080,
+                                                max_width: 1920,
+                                                type: "video"
+                                            }],
+                                            upload_id: "psJbgmlsNzgS01kZ01hT01OPI6YA00nM02uu02MZG02JB1RlOo",
+                                            video_quality: "plus"
+                                        },
+                                        playbackId: "02PtiW0000fXafXIYY4bXDFvWgbjGELY004d7wSIC5F1snQ",
+                                        status: "ready",
+                                        uploadId: "psJbgmlsNzgS01kZ01hT01OPI6YA00nM02uu02MZG02JB1RlOo"
+                                    }
+                                }
+                            }
+                        },
+                        uses: {}
+                    }],
+                    form: null,
+                    error: null
+                });
+            });
+        }
+        </script>
     </div>
-
-    <script src="https://build.cargo.site/u/9ddc44/index.js" type="module"></script>
-    <link rel="modulepreload" href="https://build.cargo.site/u/9ddc44/static/chunks/chunk-RRP2LH5G.js">
-    <link rel="modulepreload" href="https://build.cargo.site/u/9ddc44/static/chunks/chunk-WJPPU5FW.js">
-    <link rel="modulepreload" href="https://build.cargo.site/u/9ddc44/static/chunks/chunk-UCFBR6SQ.js">
-    <link rel="modulepreload" href="https://build.cargo.site/u/9ddc44/static/chunks/chunk-ZLZBY4PK.js">
-    <link rel="modulepreload" href="https://build.cargo.site/u/9ddc44/static/chunks/chunk-IV4GAJYT.js">
-    <link rel="modulepreload" href="https://build.cargo.site/u/9ddc44/static/chunks/chunk-A5PO7BAV.js">
-    <link rel="modulepreload" href="https://build.cargo.site/u/9ddc44/static/chunks/chunk-UZGBUXOF.js">
-    <link rel="modulepreload" href="https://build.cargo.site/u/9ddc44/static/chunks/chunk-5SUBKL3N.js">
-    <link rel="modulepreload" href="https://build.cargo.site/u/9ddc44/static/chunks/chunk-A4DF3YF2.js">
-    <link rel="modulepreload" href="https://build.cargo.site/u/9ddc44/static/chunks/chunk-XFBYRPXC.js">
-    <link rel="modulepreload" href="https://build.cargo.site/u/9ddc44/static/chunks/chunk-IXRTCV4E.js">
-    <link rel="modulepreload" href="https://build.cargo.site/u/9ddc44/static/chunks/chunk-HTMXPYR7.js">
-    <link rel="modulepreload" href="https://build.cargo.site/u/9ddc44/static/chunks/chunk-FGPCNLSR.js">
-    <link rel="modulepreload" href="https://build.cargo.site/u/9ddc44/static/chunks/chunk-IA3QWHKD.js">
-    <link rel="modulepreload" href="https://build.cargo.site/u/9ddc44/static/chunks/chunk-LP3IAHJH.js">
-    <link rel="modulepreload" href="https://build.cargo.site/u/9ddc44/static/chunks/chunk-AJYMLPJA.js">
-    <link rel="modulepreload" href="https://build.cargo.site/u/9ddc44/static/chunks/chunk-UENDQLYN.js">
-    <link rel="modulepreload" href="https://build.cargo.site/u/9ddc44/static/chunks/chunk-4WHCYWJF.js">
-    <link rel="modulepreload" href="https://build.cargo.site/u/9ddc44/static/chunks/chunk-NC4ZO536.js">
-    <link rel="modulepreload" href="https://build.cargo.site/u/9ddc44/static/chunks/chunk-OII3HTFO.js">
-    <link rel="modulepreload" href="https://build.cargo.site/u/9ddc44/static/chunks/chunk-7DIL2PW6.js">
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"0d501edfd8a44d74af0cdeb9ebe85c33","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 </html>
